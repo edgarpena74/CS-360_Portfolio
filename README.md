@@ -39,9 +39,9 @@ To meet these needs, the app includes the following screens and features:
     
 -   **Home Screen** - Displays a personalized welcome message, lets users enable or disable SMS alerts, and provides access to the inventory.
     
--   **Inventory Screen** - Displays all inventory items in a grid, allowing users to add, update, delete, and view their items quickly. This screen will also send an simulated SMS notification when the item inventory reaches below a certain threshold. 
+-   **Inventory Screen** - Displays all inventory items in a grid, allowing users to add, update, delete, and view their items quickly. This screen will also send a simulated SMS notification when the item inventory reaches below a certain threshold. 
     
-Each screen was designed with a user-centered UI in mind, using clear labels, intuitive navigation, and consistent layouts. The interface was kept simple and readable, ensuring users could easily perform all main actions without confusion or unnecessary steps.
+Each screen was designed with a user-centered UI in mind, using clear labels, intuitive navigation, and consistent layouts. The interface remained readable and straightforward, allowing users to perform all main actions easily and without confusion.
 
 -----------
 
@@ -49,7 +49,7 @@ Each screen was designed with a user-centered UI in mind, using clear labels, in
 
 When coding the app, I followed a structured, modular approach by separating responsibilities into repositories and helper classes, including UserRepository, InventoryRepository, and AppDatabaseHelper. This separation made the code easier to maintain and debug.
 
-Throughout development, each feature was tested incrementally before moving on to the next stage. Consistent commenting and descriptive naming conventions were applied to ensure the code remained clear and easy to follow. These practices not only make the project easier for other developers to understand and modify, but also support future improvements for a potential production-ready version that could be published on the Google Play Store.
+Throughout development, each feature was tested incrementally before moving on to the next stage. Consistent commenting and descriptive naming conventions were applied to ensure the code remained easy to follow. These practices not only make the project easier for other developers to understand and modify, but also support future improvements for a potential production-ready version that could be published on the Google Play Store.
 
 ------
 #### Testing and Debugging
@@ -151,5 +151,5 @@ By maintaining these user IDs and related context data across activities, the ap
 
 ## Closing Statement
 
-This project significantly contributed to my growth as a developer. This opened the door to new possibilities for creating apps for both personal use and for the Google Play Store for public use. The most Important thing I learned from this project is how to build a stable project and the steps I need to take to ensure everything functions correctly for the user.
+This project significantly contributed to my growth as a developer. This opened the door to new possibilities for creating apps for both personal use and for the Google Play Store. The most Important thing I learned from this project is how to build a stable project and the steps I need to take to ensure everything functions correctly for the user.
 
