@@ -1,23 +1,29 @@
 # CS-360 Project Three: Inventory App
 
-The goal of this project was to design and develop a fully functional Android mobile application that demonstrates key concepts of mobile app development, user interface design, and database integration. The Inventory App allows users to log in, create and manage an inventory list, and receive SMS alerts when stock levels are low or out of stock. The app was built using **Java** and **SQLite**, and it follows Android development best practices for readability, usability, and efficiency.
+The goal of this project was to design and develop a fully functional Android mobile application that demonstrates key concepts of mobile app development, user interface design, and database integration. The Inventory App allows users to log in, create and manage an inventory list, and receive SMS alerts when stock levels are low or out of stock. The app was built using java and SQLite, and it follows Android development best practices for readability, usability, and efficiency.
 
 This app was designed to meet user needs for quick, simple inventory tracking that can be managed directly from a mobile device. It helps users organize essential product information, such as name, amount, price, and location, while providing optional text message notifications for restocking reminders.
 
 ----
-#### Technologies Used
+### Technologies Used
 [SQLite](https://sqlite.org/docs.html)
+
 [SQLiteOpenHelper](https://developer.android.com/reference/android/database/sqlite/SQLiteOpenHelper)
+
 [Android Studio](https://developer.android.com/studio)
+
 [Android Studio Debug](https://developer.android.com/studio/debug)
+
 [Android Studio Logcat](https://developer.android.com/studio/debug/logcat)
+
 [Android](https://developer.android.com/develop)
+
 [Java](https://docs.oracle.com/en/java/)
 
 
 
 --------
-### User Requirements and UI Design
+#### User Requirements and UI Design
 
 The main user needs addressed by this app were:
 
@@ -39,25 +45,25 @@ Each screen was designed with a user-centered UI in mind, using clear labels, in
 
 -----------
 
-### Coding Process
+#### Coding Process
 
-When coding the app, I followed a structured and modular approach by separating responsibilities into repositories and helper classes such as UserRepository, InventoryRepository, and AppDatabaseHelper. This separation made the code easier to maintain and debug.
+When coding the app, I followed a structured, modular approach by separating responsibilities into repositories and helper classes, including UserRepository, InventoryRepository, and AppDatabaseHelper. This separation made the code easier to maintain and debug.
 
 Throughout development, each feature was tested incrementally before moving on to the next stage. Consistent commenting and descriptive naming conventions were applied to ensure the code remained clear and easy to follow. These practices not only make the project easier for other developers to understand and modify, but also support future improvements for a potential production-ready version that could be published on the Google Play Store.
 
 ------
-### Testing and Debugging
+#### Testing and Debugging
 
 Testing was a continuous part of the development process. I used two main tools for debugging and verification:
 
 1.  **Android Studio Terminal** – Used to test database functionality directly and verify that tables and data were being created, stored, and retrieved correctly.
     
-2.  **Logcat** – Served as the main debugging tool to track runtime errors, app crashes, and invalid user sessions. Logcat allowed me to identify issues such as missing intent extras or null values and confirm that methods were executing as expected.
+2.  **Logcat** – Served as the main debugging tool to track runtime errors, app crashes, and invalid user sessions. Logcat helped me identify issues such as missing intent extras and null values, and confirm that methods were executing as expected.
 
 In addition to using these tools, I also tested the app using the Android Emulator to confirm layout performance, button functionality, and SMS permission handling. Testing ensured that the app worked smoothly across different Android API levels and that error handling worked correctly for invalid or unexpected user input.
 
 ------
-### Challenges 
+#### Challenges 
 
 One of the main challenges was ensuring that the app handled SMS permissions correctly while still functioning when permissions were denied. To solve this, I implemented conditional checks that allowed the app to continue running normally even if the SMS feature was disabled.
 ```
@@ -138,7 +144,7 @@ protected void onCreate(Bundle savedInstanceState) {
 By maintaining these user IDs and related context data across activities, the app ensured that the correct inventory data and settings were always loaded for the logged-in user, providing a smooth and reliable experience.
 
 -----
-### Areas of Success
+#### Areas of Success
  The project successfully met all functional and design requirements outlined in the course. Key achievements include implementing a functional and user-friendly interface, integrating a persistent **SQLite** database with full **CRUD functionality**, and managing **SMS permissions** in compliance with Android’s security standards. The development process strengthened understanding of modular code design, UI construction using **Java**, and the use of debugging tools such as **Logcat** and the **Android terminal**. 
 
 ----
